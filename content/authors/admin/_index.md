@@ -61,7 +61,7 @@ education:
   - area: MEng Robotics and Automation
     institution: University of Sussex
     date_start: 2023-09-01
-    date_end: 2025-06-1
+    date_end: 2025-06-01
     summary: |
       GPA: First Class 3.8/4.0
 
@@ -70,7 +70,7 @@ education:
   - area: BSc computer science and technology
     institution: He'nan Normal University
     date_start: 2017-09-01
-    date_end: 2021-6-01
+    date_end: 2021-06-01
     summary: |
       GPA: 86%
       
@@ -158,7 +158,7 @@ awards:
   #     Learned:
   #     - Synthesize your own blockchain solutions
   #     - Gain an in-depth understanding of the specific mechanics of Bitcoin
-  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+  #     - Understand Bitcoin’s real-life applications and learn how to attack and destroy #Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work #consensus algorithm
   # - title: 'Object-Oriented Programming in R'
   #   url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
   #   certificate_url: https://www.datacamp.com
