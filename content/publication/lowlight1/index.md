@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "LTCF-Net: A Transformer-Enhanced Dual-Channel Fourier Framework for Low-Light Image Restoration"
 authors:
-- admin
-date: "2019-04-07T00:00:00Z"
+- Gaojing Zhang
+date: "2024-11-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,21 +17,21 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We introduce LTCF-Net, a novel network architecture designed for enhancing low-light images. Unlike Retinex-based methods, our approach utilizes two color spaces—LAB and YUV—to efficiently separate and process color information, by leveraging the separation of luminance from chromatic components in color images. In addition, our model incorporates the Transformer architecture to comprehensively understand image content while maintaining computational efficiency. To dynamically balance the brightness in output images, we also introduce a Fourier transform module that adjusts the luminance channel in the frequency domain. This mechanism could uniformly balance brightness across different regions while eliminating background noises, and thereby enhancing visual quality. By combining these innovative components, LTCF-Net effectively improves low-light image quality while keeping the model lightweight. Experimental results demonstrate that our method outperforms current state-of-the-art approaches across multiple evaluation metrics and datasets, achieving more natural color restoration and a balanced brightness distribution.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: A novel model for weak light enhancement.
 
 tags:
-- Large Language Models
+- Low light enhancement
 
 featured: true
 
 links:
 - name: Custom Link
   url: http://example.org
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: http://arxiv.org/pdf/
+url_code: 'https://github.com/suiuko/LTCF-Net'
 url_dataset: '#'
 url_poster: '#'
 url_project: ''
@@ -52,7 +52,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- internal-project
+- lowlight
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
