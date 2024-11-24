@@ -46,7 +46,7 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - SLAM
+  - Visual SLAM
 
 education:
   # - area: PhD Artificial Intelligence
@@ -171,4 +171,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Gaojing Zhang is a MS. student of the university of sussex. He is research interests robotics, visual slam. He is currently working on low-level vision in the robotics lab and applying it to the SLAM framework. [By 2024.11.24]
