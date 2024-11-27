@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   
   
     <meta name="generator" content="Hugo Blox Builder 5.9.7" />
@@ -132,6 +132,15 @@
     margin: 20px;
   }
 
+  .pub-list-item {
+    margin-bottom: 1rem;
+  }
+
+  .pub-icon {
+    font-size: 24px; /* 设置图标的大小 */
+    color: #333; /* 设置图标颜色 */
+  }
+
   .progress-container {
     width: 100%;
     background-color: #f3f3f3;
@@ -163,13 +172,20 @@
   .stage {
     text-align: center;
     width: 25%; /* 四个阶段，平均分配 */
+    position: relative;
   }
 
   /* 中间的竖线 */
   .stage:not(:last-child)::after {
     content: "|";
-    margin-left: 10px;
-    margin-right: 10px;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .btn {
+    margin-top: 10px;
   }
 </style>
 
@@ -590,41 +606,37 @@ If you are interested in me, you can send me an email. In the meantime, my <a hr
  <div class="col-12 col-lg-8">
    
   <!-- 第一个项目 -->
-    <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
     <i class="far fa-sensor-smoke pub-icon" aria-hidden="true"></i>
-  
+
     <span class="article-metadata li-cite-author">
+      <span class="author-highlighted">Gaojing Zhang</span>
+    </span>
+    (2024). lowlight SLAM: 24/7 vision enhancement for robots.
     
+    <p>
+      <strong>Schedule</strong>
+    </p>
 
-      <span class="author-highlighted">
-          Gaojing Zhang</span>
-      </span>
-      (2024).
-      lowlight SLAM: 24/7 vision enhancement for robots.
-      
-      <p>
-        <strong>Schedule</strong>
-      </p>
-  <!-- 进度条 -->
-  <div class="progress-container">
-    <div class="progress-bar" style="width: 20%;">20%</div>
-  </div>
-
-  <!-- 阶段描述 -->
-  <div class="stages">
-    <div class="stage">完整初版模型</div>
-    <div class="stage">优化模型并开始写作</div>
-    <div class="stage">初版文章完成</div>
-    <div class="stage">投递中</div>
-  </div>
-
-      <p>
-        <!-- 更改 -->
-        <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://suiuko.github.io" target="_blank" rel="noopener">
-          code
-        </a>
-      </p>
+    <!-- 进度条 -->
+    <div class="progress-container">
+      <div class="progress-bar" style="width: 20%;">20%</div>
     </div>
+
+    <!-- 阶段描述 -->
+    <div class="stages">
+      <div class="stage">Initial model finished</div>
+      <div class="stage">writing paper & optimization project</div>
+      <div class="stage">First edition finished</div>
+      <div class="stage">Delivering</div>
+    </div>
+
+    <p>
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://suiuko.github.io" target="_blank" rel="noopener">
+        code
+      </a>
+    </p>
+  </div>
 
 
   <!-- 第二个项目 -->
