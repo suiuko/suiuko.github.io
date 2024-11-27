@@ -124,7 +124,46 @@
   <title>Gaojing Zhang&#39;s Homepage</title>
 
   
- 
+
+<!-- 进度条 -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    .progress-container {
+      width: 100%;
+      background-color: #f3f3f3;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      position: relative;
+      height: 30px;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: #4caf50;
+      border-radius: 5px;
+      text-align: center;
+      line-height: 30px;
+      color: white;
+      font-size: 14px;
+      transition: width 0.5s ease;
+    }
+
+    .stages {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .stage {
+      text-align: center;
+      width: 25%; /* 四个阶段，平均分配 */
+    }
+  </style>
 
 
 
@@ -523,7 +562,126 @@ If you are interested in me, you can send me an email. In the meantime, my <a hr
   </div>
 </section>
 
+
+<!-- 目前正在做的工作 -->
+<section id="ongoing research" class="home-section wg-contact  "  >
+  <div class="home-section-bg " >
+    
+  </div>
+   <div class="container">
+ 
+   
+     <div class="row  ">
+     
+       
+         <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+           <h1 class="mb-0">ongoing research</h1>
+           
+         </div>
+       
+     
+ <div class="col-12 col-lg-8">
+   
+  <!-- 第一个项目 -->
+    <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+    <i class="far fa-sensor-smoke pub-icon" aria-hidden="true"></i>
   
+    <span class="article-metadata li-cite-author">
+    
+
+      <span class="author-highlighted">
+          Gaojing Zhang</span>
+      </span>
+      (2024).
+      lowlight SLAM: 24/7 vision enhancement for robots.
+      
+      <p>
+        <strong>Schedule</strong>
+      </p>
+      <div class="progress-container">
+        <div class="progress-bar" style="width: 20%;">20%</div>
+      </div>
+      <div class="stages">
+        <div class="stage">完整初版模型</div>
+        <div class="stage">优化模型并开始写作</div>
+        <div class="stage">初版文章完成</div>
+        <div class="stage">投递中</div>
+      </div>
+    
+      <script>
+        // 动态模拟进度条更新的功能 (可选)
+        let progressBar = document.querySelector('.progress-bar');
+        let progress = 20; // 当前进度
+    
+        // 模拟阶段推进
+        setTimeout(() => {
+          progress = 40;
+          progressBar.style.width = progress + '%';
+          progressBar.textContent = progress + '%';
+        }, 2000);
+    
+        setTimeout(() => {
+          progress = 70;
+          progressBar.style.width = progress + '%';
+          progressBar.textContent = progress + '%';
+        }, 4000);
+    
+        setTimeout(() => {
+          progress = 100;
+          progressBar.style.width = progress + '%';
+          progressBar.textContent = progress + '%';
+        }, 6000);
+      </script>
+
+      
+      <div class="progress-container">
+        <div class="progress-bar">20%</div>
+      </div>
+
+      <p>
+        <!-- 更改 -->
+        <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://suiuko.github.io" target="_blank" rel="noopener">
+          code
+        </a>
+      </p>
+    </div>
+
+
+  <!-- 第二个项目 -->
+  <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+    <i class="far fa-sensor-smoke pub-icon" aria-hidden="true"></i>
+  
+    <span class="article-metadata li-cite-author">
+    
+
+      <span class="author-highlighted">
+          Gaojing Zhang</span>
+      </span>
+      (2024).
+      Image enhancement of complex underwater.
+      
+      <p>
+        <!-- 更改 -->
+        <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://suiuko.github.io" target="_blank" rel="noopener">
+          code
+        </a>
+      </p>
+    </div>
+
+
+ 
+  </div>
+</div>
+   
+ 
+  
+ </section>
+
+
+
+
+
+<!-- contact   -->
 
 <section id="contact" class="home-section wg-contact  "  >
  <div class="home-section-bg " >
@@ -594,7 +752,7 @@ If you are interested in me, you can send me an email. In the meantime, my <a hr
   </div>
 </section>
 
-  
+<!-- end contact   -->
 
   
   
