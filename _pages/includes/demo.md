@@ -5,7 +5,7 @@
 
 Use Franka to complete the tangram puzzle 
 
-📺 [** Video **](https://youtu.be/GQYh7c9oYgs) | [** Code TODO **](https://suiuko.github.io/)
+📺 ** Video ** [** Youtube **](https://youtu.be/GQYh7c9oYgs) | ** Code ** [** TODO **](https://suiuko.github.io/)
 </div>
 </div>
 
@@ -14,11 +14,12 @@ Use Franka to complete the tangram puzzle
 
 Use the dual-arm robot: monte to complete the pick and place task through graspnet.
 
-📺 [** Video **](https://youtu.be/GQYh7c9oYgs) | [** Code TODO **](https://suiuko.github.io/)
+📺 ** Video ** [** Youtube **](https://youtu.be/GQYh7c9oYgs) | ** Code ** [** TODO **](https://suiuko.github.io/)
 </div>
 </div>
 
 # 🪁 Projects
 
-``Internship`` Embodied intelligence platform: Hand-eye calibration section.
-``Internship`` Motion capture system, object marking and data acquisition.
+- ``Internship`` Embodied intelligence platform: Hand-eye calibration section.
+
+- ``Internship`` Motion capture system, object marking and data acquisition.
