@@ -10,4 +10,4 @@ Track the hand and complete the remote operation to collect data.
 </div>
 </div>
 
-``others`` **Lerobot** reproduces, collects data, and trains.
+- ``others`` **Lerobot** reproduces, collects data, and trains.
