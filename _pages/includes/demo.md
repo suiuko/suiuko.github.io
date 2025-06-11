@@ -19,7 +19,7 @@ Use the dual-arm robot: monte to complete the pick and place task through graspn
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DEMO3</div><img src='images/demo2.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">DEMO3</div><img src='images/demo3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Using VLM to make a decision: Should we suck or grab?
