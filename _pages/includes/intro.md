@@ -1,12 +1,20 @@
-I graduated from the University of Sussex with a master's degree in robotics. My undergraduate major was Computer Science and Technology, and I graduated from Henan Normal University. 
+I am a PhD student at the University of Sussex (funded by CSC). I received my MSc in Robotics from the University of Sussex in June 2025.
 
-Currently, I am conducting research on embodied intelligence at the School of AI, Shanghai Jiao Tong University. My supervisor is Professor Lian Wenzhao, and I work in the HIROL laboratory. As a newcomer in the field of embodied intelligence, I am very willing to learn from my seniors. If you are interested in me, please feel free to contact me.
+Currently, I conduct research on embodied intelligence in the Robotics Laboratory at the University of Sussex, supervised by Professor Bao Kha Nguyen. I am also a visiting doctoral student at the School of Artificial Intelligence, Shanghai Jiao Tong University (HIROL Lab), supervised by Professor Lian Wenzhao.
 
-# 📖 Educations
+As a newcomer to embodied intelligence, I’m eager to learn from senior researchers and peers. If you’re interested in my work, please feel free to contact me.
 
-- **2023.09 - 2025.6**: Master of Science in Robotics, University of Sussex, UK.
-- **2017.09 - 2021.06**: Bachelor of Engineering in Computer Science and Technology, Henan Normal University, China.
+# 📖 Education
+
+2025.10 – Present: PhD Student, University of Sussex, UK
+
+2023.09 – 2025.06: MSc in Robotics, University of Sussex, UK
+
+2017.09 – 2021.06: BEng in Computer Science and Technology, Henan Normal University, China
+
+# 💻 Internships & Research Experience
+
+- **2025.09 - Now**: Visiting student at Shanghai Jiao Tong University, School of AI, HIROL Lab.
+- **2025.03 - 2025.09**: Research Assistant at Shanghai Jiao Tong University, School of AI, HIROL Lab.
 
 
-# 💻 Internship
-- **2025.03 - Now**: Research Assistant at Shanghai Jiao Tong University, School of AI, HIROL Lab.
