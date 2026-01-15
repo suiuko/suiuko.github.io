@@ -4,6 +4,20 @@ Currently, I conduct research on embodied intelligence in the Robotics Laborator
 
 As a newcomer to embodied intelligence, I’m eager to learn from senior researchers and peers. If you’re interested in my work, please feel free to contact me.
 
+# 🌟 Research Orientation
+
+Embodied AI & Multimodal Foundation Models
+
+Leveraging Large Vision-Language Models (LVLMs) for embodied reasoning and decision-making.
+
+Instruction following and long-horizon planning in complex environments (VLN).
+
+Parameter-efficient fine-tuning (PEFT) and alignment of foundation models for robotics tasks.
+
+Bridging the gap between high-level linguistic instructions and low-level control policies.
+
+Cross-modal representation learning for embodied agents in 3D environments.
+
 # 📖 Education
 
 2025.10 – Present: PhD Student, University of Sussex, UK
@@ -15,6 +29,9 @@ As a newcomer to embodied intelligence, I’m eager to learn from senior researc
 # 💻 Internships & Research Experience
 
 - **2025.09 - Now**: Visiting student at Shanghai Jiao Tong University, School of AI, HIROL Lab.
+
 - **2025.03 - 2025.09**: Research Assistant at Shanghai Jiao Tong University, School of AI, HIROL Lab.
+
+Embodied intelligence platform: Hand-eye calibration section. The programming of the underlying interfaces for different robots. Motion capture system, object marking and data acquisition.
 
 

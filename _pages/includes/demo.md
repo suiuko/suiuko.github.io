@@ -29,8 +29,3 @@ Using VLM to make a decision: Should we suck or grab?
 </div>
 
 
-# 🪁 Projects
-
-- ``Internship`` Embodied intelligence platform: Hand-eye calibration section.
-
-- ``Internship`` Motion capture system, object marking and data acquisition.
