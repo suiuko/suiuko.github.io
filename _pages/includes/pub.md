@@ -17,10 +17,45 @@
 <div class='paper-box-text' markdown="1">
 
 4DGS point flow \\
-
+Convert 3DGS to a time series format and simultaneously use semantic-driven methods to track objects.
 
 </div>
 </div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/SAGE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAGE: Scene Graph-Aware Guidance and Execution for Long-Horizon Manipulation Tasks](https://arxiv.org/abs/2509.21928) \\
+
+
+-  we propose SAGE, a novel framework for Scene Graph-Aware Guidance and Execution in Long-Horizon Manipulation Tasks
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/FSAG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[FSAG: Enhancing Human-to-Dexterous-Hand Finger-Specific Affordance Grounding via Diffusion Models](https://arxiv.org/abs/2601.08246) \\
+
+
+-  we propose a data-efficient framework, which is designed to bypass robot grasp data collection by exploiting the rich, object-centric semantic priors latent in pretrained generative diffusion models. 
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/Meta-scoop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+Meta-Scoop: A Coarse-to-Precise Policy Learning Framework for
+Precision Scooping Across Task Variations \\
+
+
+-  We have proposed a framework that progresses from rough to precise, enabling precise extraction operations in various task variations.
+</div>
+</div>
+
+
+
 
 # 🤖 Some Work
 
