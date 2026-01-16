@@ -1,6 +1,6 @@
 I am a PhD student at the University of Sussex (funded by CSC). I received my MSc in Robotics from the University of Sussex in June 2025.
 
-Currently, I conduct research on embodied intelligence in the Robotics Laboratory at the University of Sussex, supervised by <span class="pii-mask">Professor Bao Kha Nguyen</span>. I am also a visiting doctoral student at the School of Artificial Intelligence, Shanghai Jiao Tong University (HIROL Lab), supervised by Professor <span class="pii-mask">Professor Lian Wenzhao</span>.
+Currently, I conduct research on embodied intelligence in the Autonomous Intelligence & Robotic Embodiment Lab at the University of Sussex, supervised by Professor Bao Kha Nguyen. I am also a visiting doctoral student at the School of Artificial Intelligence, Shanghai Jiao Tong University (HIROL Lab), supervised by Professor Professor Lian Wenzhao.
 
 As a newcomer to embodied intelligence, I’m eager to learn from senior researchers and peers. If you’re interested in my work, please feel free to contact me.
 

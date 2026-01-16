@@ -108,26 +108,3 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
-.pii-mask{
-  position: relative;
-  color: transparent;           /* 默认不显示文字 */
-  user-select: none;
-}
-.pii-mask::after{
-  content:"";
-  position:absolute;
-  left:-0.05em; right:-0.05em; top:0.15em; bottom:0.15em;
-  background:#000;
-  border-radius:3px;            /* 黑条打码效果 */
-}
-
-/* 鼠标放上去 / 键盘 Tab 聚焦：显示 */
-.pii-mask:hover,
-.pii-mask:focus{
-  color: inherit;
-  user-select: text;
-}
-.pii-mask:hover::after,
-.pii-mask:focus::after{
-  display:none;
-}
