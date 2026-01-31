@@ -1,15 +1,30 @@
 # 📖 Publications
 
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2026</div><img src='images/SAGE.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SAGE: Scene Graph-Aware Guidance and Execution for Long-Horizon Manipulation Tasks](https://arxiv.org/abs/2509.21928) 
+
+
+-  we propose SAGE, a novel framework for Scene Graph-Aware Guidance and Execution in Long-Horizon Manipulation Tasks
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICRA 2025</div><img src='images/1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[LLGS: Unsupervised Gaussian Splatting for Image Enhancement and Reconstruction in Pure Dark Environment](https://arxiv.org/pdf/2503.18640)  <span style="color:red">(Oral)</span>\\
+[LLGS: Unsupervised Gaussian Splatting for Image Enhancement and Reconstruction in Pure Dark Environment](https://arxiv.org/pdf/2503.18640)
 
-[**Project**](https://suiuko.github.io/) <strong><span class='show_paper_citations' data='vq9Nz9UAAAAJ:UeHWp8X0CEIC'></span></strong>
+<!-- [**Project**](https://suiuko.github.io/) <strong><span class='show_paper_citations' data='vq9Nz9UAAAAJ:UeHWp8X0CEIC'></span></strong> -->
 
 -  we propose an unsupervised multi-view stereoscopic system based on Gaussian Splatting, called Low-Light Gaussian Splatting.
 </div>
 </div>
+
+
 
 # 🤔 Review & correction
 
@@ -24,15 +39,6 @@ Convert 3DGS to a time series format and simultaneously use semantic-driven meth
 
 <!-- - -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/SAGE.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[SAGE: Scene Graph-Aware Guidance and Execution for Long-Horizon Manipulation Tasks](https://arxiv.org/abs/2509.21928) 
-
-
--  we propose SAGE, a novel framework for Scene Graph-Aware Guidance and Execution in Long-Horizon Manipulation Tasks
-</div>
-</div>
 
 <!-- - -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/FSAG.png' alt="sym" width="100%"></div></div>
