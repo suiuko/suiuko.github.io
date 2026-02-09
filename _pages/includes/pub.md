@@ -65,7 +65,7 @@ Precision Scooping Across Task Variations
 
 <!-- - -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/triplet2track.png' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Review</div><img src='images/triplet2track.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 Triplet2Track: A Hierarchical Object-Centric Representation for
@@ -74,7 +74,7 @@ Reliable Long-Horizon Manipulation
 
 -  we introduce the Triplet-to-Track System (TTS), which represents a task as discrete, structural instance–spatial triplets, then compiles them into continuous tracks with physical priors that are inspectable, and finally executes actions.
 </div>
-</div>
+</div> -->
 
 # 🤖 Some Work
 
