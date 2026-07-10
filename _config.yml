@@ -9,6 +9,8 @@
 title                    : "Gaojing Zhang"
 description              : "🤪 Funny performer, 🍂 nature's recorder, 🤖 novice of embodied intelligence"
 repository               : "suiuko/suiuko.github.io"
+url                      : "https://suiuko.github.io"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics

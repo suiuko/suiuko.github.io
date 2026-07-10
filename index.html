@@ -1,0 +1,267 @@
+---
+layout: null
+permalink: /
+title: Gaojing Zhang
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | default: 'Gaojing Zhang - Embodied Intelligence and Robotics' | escape }}">
+  <meta name="theme-color" content="#05070c">
+  <title>{{ page.title }} | Embodied Intelligence & Robotics</title>
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- background layers -->
+  <div class="aurora" aria-hidden="true">
+    <div class="aurora-blob aurora-blob-a"></div>
+    <div class="aurora-blob aurora-blob-b"></div>
+    <div class="aurora-blob aurora-blob-c"></div>
+  </div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+  <div class="fade-overlay" aria-hidden="true"></div>
+  <div class="cursor-glow" data-cursor aria-hidden="true"></div>
+
+  <div class="scroll-progress-track" aria-hidden="true">
+    <div class="scroll-progress" data-progress></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Back to top">
+      <span class="brand-mark">GZ</span>
+      <span>Gaojing&nbsp;Zhang</span>
+    </a>
+    <div class="header-right">
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a data-nav="about" href="#about" data-i18n="navAbout">About</a>
+        <a data-nav="research" href="#research" data-i18n="navResearch">Research</a>
+        <a data-nav="education" href="#education" data-i18n="navEducation">Education</a>
+        <a data-nav="news" href="#news" data-i18n="navNews">News</a>
+        <a data-nav="publications" href="#publications" data-i18n="navPapers">Papers</a>
+        <a data-nav="demos" href="#demos" data-i18n="navDemos">Demos</a>
+        <a data-nav="honors" href="#honors" data-i18n="navHonors">Honors</a>
+      </nav>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <div class="lang-toggle-thumb" data-lang-thumb></div>
+        <button type="button" data-lang-btn="en" aria-label="English">EN</button>
+        <button type="button" data-lang-btn="zh" aria-label="中文">中</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow-badge" data-reveal>
+            <span class="pulse-dot"></span>
+            <span data-i18n="heroEyebrow">Embodied Intelligence · Robotics</span>
+          </div>
+          <h1 data-reveal>Gaojing<br>Zhang</h1>
+          <p class="hero-lead" data-reveal>
+            <span data-i18n="heroDescPre">PhD student in </span><span class="hero-lead-strong" data-i18n="heroDescBold">embodied intelligence</span><span data-i18n="heroDescPost"> at the University of Sussex (CSC-funded), and visiting researcher at Shanghai Jiao Tong University · HIROL Lab. Building the bridge from language to low-level robot control.</span>
+          </p>
+          <p class="hero-tagline" data-reveal data-i18n="heroTagline">Funny performer · Nature's recorder · Novice of embodied intelligence</p>
+          <div class="hero-actions" data-reveal>
+            <a class="button button-primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><span data-i18n="ctaScholar">Google Scholar →</span></a>
+            <a class="button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><span data-i18n="ctaGithub">GitHub</span></a>
+            <a class="button" href="mailto:{{ site.author.email }}"><span data-i18n="ctaEmail">Email</span></a>
+          </div>
+          <div class="hero-stats" data-reveal>
+            <div><strong>5+</strong><span data-i18n="statPapersLabel">Papers</span></div>
+            <div class="hero-stats-sep"></div>
+            <div><strong>2</strong><span data-i18n="statLabsLabel">Labs</span></div>
+            <div class="hero-stats-sep"></div>
+            <div><strong data-i18n="statLocationValue">Shanghai</strong><span data-i18n="statLocationLabel">Based in China</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-ring avatar-ring-outer"></div>
+          <div class="avatar-ring avatar-ring-inner"></div>
+          <div class="avatar-frame">
+            <img src="{{ '/images/profile-avatar.png' | relative_url }}" alt="Gaojing Zhang avatar">
+          </div>
+          <div class="collab-chip"><span></span><span data-i18n="openCollab">Open to collab</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">01</span>
+        <h2 data-i18n="aboutTitle">About</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="glass-panel about-panel" data-reveal>
+        <p data-i18n="aboutP1">I am a PhD student at the University of Sussex (funded by CSC), where I received my MSc in Robotics in June 2025. I conduct research on embodied intelligence in the Autonomous Intelligence &amp; Robotic Embodiment Lab, supervised by Prof. Bao Kha Nguyen.</p>
+        <p data-i18n="aboutP2">I am also a visiting doctoral student at the School of Artificial Intelligence, Shanghai Jiao Tong University (HIROL Lab), supervised by Prof. Lian Wenzhao. As a newcomer to embodied intelligence, I'm eager to learn from senior researchers and peers — if you're interested in my work, please feel free to reach out.</p>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">02</span>
+        <h2 data-i18n="researchTitle">Research Orientation</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <p class="section-kicker" data-reveal data-i18n="researchSubtitle">Embodied AI & Multimodal Foundation Models</p>
+      <div class="research-grid">
+        <div class="glass-card" data-reveal data-delay="0"><div class="mono-index">// 01</div><p data-i18n="research1">Leveraging Large Vision-Language Models (LVLMs) for embodied reasoning and decision-making.</p></div>
+        <div class="glass-card" data-reveal data-delay="70"><div class="mono-index">// 02</div><p data-i18n="research2">Instruction following and long-horizon planning in complex environments (VLN).</p></div>
+        <div class="glass-card" data-reveal data-delay="140"><div class="mono-index">// 03</div><p data-i18n="research3">Parameter-efficient fine-tuning (PEFT) and alignment of foundation models for robotics tasks.</p></div>
+        <div class="glass-card" data-reveal data-delay="0"><div class="mono-index">// 04</div><p data-i18n="research4">Bridging the gap between high-level linguistic instructions and low-level control policies.</p></div>
+        <div class="glass-card" data-reveal data-delay="70"><div class="mono-index">// 05</div><p data-i18n="research5">Cross-modal representation learning for embodied agents in 3D environments.</p></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION + EXPERIENCE -->
+    <section id="education" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">03</span>
+        <h2 data-i18n="eduExpTitle">Education & Experience</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="timeline-columns">
+        <div class="timeline-column">
+          <div class="glass-card timeline-card accent-left" data-reveal data-delay="0">
+            <div class="mono-index" data-i18n="edu1Date">2025.10 — Present</div>
+            <div class="timeline-title" data-i18n="edu1Title">PhD Student</div>
+            <div class="timeline-sub" data-i18n="edu1Sub">University of Sussex, UK</div>
+          </div>
+          <div class="glass-card timeline-card" data-reveal data-delay="70">
+            <div class="mono-index mono-index-alt" data-i18n="edu2Date">2023.09 — 2025.06</div>
+            <div class="timeline-title" data-i18n="edu2Title">MSc in Robotics</div>
+            <div class="timeline-sub" data-i18n="edu2Sub">University of Sussex, UK</div>
+          </div>
+          <div class="glass-card timeline-card" data-reveal data-delay="140">
+            <div class="mono-index mono-index-alt" data-i18n="edu3Date">2017.09 — 2021.06</div>
+            <div class="timeline-title" data-i18n="edu3Title">BEng, Computer Science &amp; Technology</div>
+            <div class="timeline-sub" data-i18n="edu3Sub">Henan Normal University, China</div>
+          </div>
+        </div>
+        <div class="timeline-column">
+          <div class="glass-card timeline-card accent-left-2" data-reveal data-delay="0">
+            <div class="mono-index mono-index-alt" data-i18n="exp1Date">2025.09 — Now</div>
+            <div class="timeline-title" data-i18n="exp1Title">Visiting Student</div>
+            <div class="timeline-sub" data-i18n="exp1Sub">SJTU · School of AI · HIROL Lab</div>
+          </div>
+          <div class="glass-card timeline-card" data-reveal data-delay="70">
+            <div class="mono-index mono-index-alt" data-i18n="exp2Date">2025.03 — 2025.09</div>
+            <div class="timeline-title" data-i18n="exp2Title">Research Assistant</div>
+            <div class="timeline-sub" data-i18n="exp2Sub">SJTU · School of AI · HIROL Lab</div>
+            <p class="timeline-desc" data-i18n="exp2Desc">Embodied intelligence platform: hand-eye calibration, underlying interface programming for different robots, motion-capture system, object marking &amp; data acquisition.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">04</span>
+        <h2 data-i18n="newsTitle">News</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="news-list">
+        <div class="glass-card news-row" data-reveal data-delay="0">
+          <span class="news-date-badge" data-i18n="news1Date">2026.02</span>
+          <span class="news-text" data-i18n="news1Text">One paper accepted by ICRA 2026 🎉</span>
+        </div>
+        <div class="glass-card news-row" data-reveal data-delay="80">
+          <span class="news-date-badge news-date-badge-alt" data-i18n="news2Date">2025.06</span>
+          <span class="news-text" data-i18n="news2Text">Received funding from the China Scholarship Council (CSC) 🎉</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">05</span>
+        <h2 data-i18n="pubsTitle">Publications</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="pub-list" data-list="publications"></div>
+    </section>
+
+    <!-- DEMOS -->
+    <section id="demos" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">06</span>
+        <h2 data-i18n="demosTitle">Demos</h2>
+        <a class="section-heading-link" href="https://suiuko.github.io/DemoShow/" target="_blank" rel="noopener" data-i18n="demoShowLink">DemoShow →</a>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="demo-grid" data-list="demos"></div>
+    </section>
+
+    <!-- HONORS -->
+    <section id="honors" class="section">
+      <div class="section-heading" data-reveal>
+        <span class="section-index">07</span>
+        <h2 data-i18n="honorsTitle">Honors & Awards</h2>
+        <span class="heading-rule"></span>
+      </div>
+      <div class="honors-grid">
+        <div class="glass-card honor-card" data-reveal data-delay="0">
+          <div class="mono-index" data-i18n="honor1Date">2025</div>
+          <div class="honor-text" data-i18n="honor1Text">CSC Government Scholarship for Doctoral Studies Abroad</div>
+        </div>
+        <div class="glass-card honor-card" data-reveal data-delay="70">
+          <div class="mono-index" data-i18n="honor2Date">2025 · Top 1%</div>
+          <div class="honor-text" data-i18n="honor2Text">Sussex University Dean's Scholarship</div>
+        </div>
+        <div class="glass-card honor-card" data-reveal data-delay="140">
+          <div class="mono-index" data-i18n="honor3Date">2025 · Top 5%</div>
+          <div class="honor-text" data-i18n="honor3Text">Sussex University International Doctoral Scholarship</div>
+        </div>
+      </div>
+      <div class="reviewer-row" data-reveal>
+        <span class="reviewer-label" data-i18n="reviewerFor">Reviewer for</span>
+        <span class="reviewer-tag">ICRA 2026</span>
+        <span class="reviewer-tag">ICME 2026</span>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section class="section contact-section">
+      <div class="contact-panel" data-reveal>
+        <h2 data-i18n="footerTitle">Let's build embodied intelligence together.</h2>
+        <p data-i18n="footerDesc">Interested in my work, or thinking about collaboration? I'd love to hear from you.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+          <a class="button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+          <a class="button" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <span data-i18n="footerBottomLeft">Gaojing Zhang · Shanghai, China</span>
+        <span data-i18n="footerBottomRight">Embodied Intelligence · Robotics · © {{ site.time | date: '%Y' }}</span>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="{{ '/assets/js/home.js' | relative_url }}" defer></script>
+  {% if site.google_analytics_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ site.google_analytics_id }}');
+  </script>
+  {% endif %}
+</body>
+</html>
