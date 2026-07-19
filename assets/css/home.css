@@ -20,6 +20,12 @@ html {
   scroll-padding-top: calc(var(--header-height) + 24px);
 }
 
+/* language toggle: both languages are rendered at build time, one hidden via attribute */
+html[data-lang-active="en"] [data-lang="zh"] { display: none; }
+html[data-lang-active="zh"] [data-lang="en"] { display: none; }
+
+.pub-title a { color: inherit; }
+
 body {
   margin: 0;
   background: var(--bg);
@@ -608,7 +614,7 @@ main {
   margin-top: 18px;
 }
 
-.research-grid {
+.research-grid [data-lang] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 16px;
@@ -645,6 +651,9 @@ main {
 
 .timeline-column {
   flex: 1 1 340px;
+}
+
+.timeline-column [data-lang] {
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -682,7 +691,7 @@ main {
   line-height: 1.6;
 }
 
-.news-list {
+.news-list [data-lang] {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -720,7 +729,7 @@ main {
 
 /* ---------- publications ---------- */
 
-.pub-list {
+.pub-list [data-lang] {
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -783,10 +792,6 @@ main {
   line-height: 1.35;
 }
 
-span.pub-title {
-  color: #fff;
-}
-
 .pub-desc {
   margin: 12px 0 0;
   color: var(--muted);
@@ -804,9 +809,20 @@ span.pub-title {
   font-size: 12.5px;
 }
 
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  margin-top: 14px;
+}
+
+.pub-links .mono-link {
+  margin-top: 0;
+}
+
 /* ---------- demos ---------- */
 
-.demo-grid {
+.demo-grid [data-lang] {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 18px;
@@ -859,7 +875,7 @@ span.pub-title {
 
 /* ---------- honors ---------- */
 
-.honors-grid {
+.honors-grid [data-lang] {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
@@ -885,7 +901,8 @@ span.pub-title {
   flex-wrap: wrap;
   align-items: center;
   gap: 14px;
-  margin-top: 26px;
+  flex-basis: 100%;
+  margin-top: 10px;
 }
 
 .reviewer-label {

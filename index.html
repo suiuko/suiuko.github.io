@@ -3,8 +3,24 @@ layout: null
 permalink: /
 title: Gaojing Zhang
 ---
+{% capture about_en %}{% include_relative _pages/includes/en/about.md %}{% endcapture %}
+{% capture about_zh %}{% include_relative _pages/includes/zh/about.md %}{% endcapture %}
+{% capture research_en %}{% include_relative _pages/includes/en/research.md %}{% endcapture %}
+{% capture research_zh %}{% include_relative _pages/includes/zh/research.md %}{% endcapture %}
+{% capture education_en %}{% include_relative _pages/includes/en/education.md %}{% endcapture %}
+{% capture education_zh %}{% include_relative _pages/includes/zh/education.md %}{% endcapture %}
+{% capture experience_en %}{% include_relative _pages/includes/en/experience.md %}{% endcapture %}
+{% capture experience_zh %}{% include_relative _pages/includes/zh/experience.md %}{% endcapture %}
+{% capture news_en %}{% include_relative _pages/includes/en/news.md %}{% endcapture %}
+{% capture news_zh %}{% include_relative _pages/includes/zh/news.md %}{% endcapture %}
+{% capture pub_en %}{% include_relative _pages/includes/en/pub.md %}{% endcapture %}
+{% capture pub_zh %}{% include_relative _pages/includes/zh/pub.md %}{% endcapture %}
+{% capture demo_en %}{% include_relative _pages/includes/en/demo.md %}{% endcapture %}
+{% capture demo_zh %}{% include_relative _pages/includes/zh/demo.md %}{% endcapture %}
+{% capture honors_en %}{% include_relative _pages/includes/en/honors.md %}{% endcapture %}
+{% capture honors_zh %}{% include_relative _pages/includes/zh/honors.md %}{% endcapture %}
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang-active="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,13 +56,13 @@ title: Gaojing Zhang
     </a>
     <div class="header-right">
       <nav class="site-nav" aria-label="Primary navigation">
-        <a data-nav="about" href="#about" data-i18n="navAbout">About</a>
-        <a data-nav="research" href="#research" data-i18n="navResearch">Research</a>
-        <a data-nav="education" href="#education" data-i18n="navEducation">Education</a>
-        <a data-nav="news" href="#news" data-i18n="navNews">News</a>
-        <a data-nav="publications" href="#publications" data-i18n="navPapers">Papers</a>
-        <a data-nav="demos" href="#demos" data-i18n="navDemos">Demos</a>
-        <a data-nav="honors" href="#honors" data-i18n="navHonors">Honors</a>
+        <a data-nav="about" href="#about"><span data-lang="en">About</span><span data-lang="zh">关于</span></a>
+        <a data-nav="research" href="#research"><span data-lang="en">Research</span><span data-lang="zh">研究方向</span></a>
+        <a data-nav="education" href="#education"><span data-lang="en">Education</span><span data-lang="zh">教育经历</span></a>
+        <a data-nav="news" href="#news"><span data-lang="en">News</span><span data-lang="zh">动态</span></a>
+        <a data-nav="publications" href="#publications"><span data-lang="en">Papers</span><span data-lang="zh">论文</span></a>
+        <a data-nav="demos" href="#demos"><span data-lang="en">Demos</span><span data-lang="zh">Demo</span></a>
+        <a data-nav="honors" href="#honors"><span data-lang="en">Honors</span><span data-lang="zh">荣誉</span></a>
       </nav>
       <div class="lang-toggle" role="group" aria-label="Language">
         <div class="lang-toggle-thumb" data-lang-thumb></div>
@@ -64,24 +80,29 @@ title: Gaojing Zhang
         <div class="hero-copy">
           <div class="eyebrow-badge" data-reveal>
             <span class="pulse-dot"></span>
-            <span data-i18n="heroEyebrow">Embodied Intelligence · Robotics</span>
+            <span data-lang="en">Embodied Intelligence · Robotics</span>
+            <span data-lang="zh">具身智能 · 机器人</span>
           </div>
           <h1 data-reveal>Gaojing<br>Zhang</h1>
           <p class="hero-lead" data-reveal>
-            <span data-i18n="heroDescPre">PhD student in </span><span class="hero-lead-strong" data-i18n="heroDescBold">embodied intelligence</span><span data-i18n="heroDescPost"> at the University of Sussex (CSC-funded), and visiting researcher at Shanghai Jiao Tong University · HIROL Lab. Building the bridge from language to low-level robot control.</span>
+            <span data-lang="en">PhD student in <span class="hero-lead-strong">embodied intelligence</span> at the University of Sussex (CSC-funded), and visiting researcher at Shanghai Jiao Tong University · HIROL Lab. Building the bridge from language to low-level robot control.</span>
+            <span data-lang="zh"><span class="hero-lead-strong">具身智能</span> 方向博士生,苏塞克斯大学(国家留学基金委资助),上海交通大学 HIROL 实验室访问研究员。致力于打通语言指令与底层机器人控制之间的桥梁。</span>
           </p>
-          <p class="hero-tagline" data-reveal data-i18n="heroTagline">Funny performer · Nature's recorder · Novice of embodied intelligence</p>
+          <p class="hero-tagline" data-reveal>
+            <span data-lang="en">Funny performer · Nature's recorder · Novice of embodied intelligence</span>
+            <span data-lang="zh">有趣的表演者 · 自然的记录者 · 具身智能的新人</span>
+          </p>
           <div class="hero-actions" data-reveal>
-            <a class="button button-primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><span data-i18n="ctaScholar">Google Scholar →</span></a>
-            <a class="button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener"><span data-i18n="ctaGithub">GitHub</span></a>
-            <a class="button" href="mailto:{{ site.author.email }}"><span data-i18n="ctaEmail">Email</span></a>
+            <a class="button button-primary" href="{{ site.author.googlescholar }}" target="_blank" rel="noopener"><span data-lang="en">Google Scholar →</span><span data-lang="zh">谷歌学术 →</span></a>
+            <a class="button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+            <a class="button" href="mailto:{{ site.author.email }}"><span data-lang="en">Email</span><span data-lang="zh">邮箱</span></a>
           </div>
           <div class="hero-stats" data-reveal>
-            <div><strong>5+</strong><span data-i18n="statPapersLabel">Papers</span></div>
+            <div><strong>5+</strong><span><span data-lang="en">Papers</span><span data-lang="zh">论文</span></span></div>
             <div class="hero-stats-sep"></div>
-            <div><strong>2</strong><span data-i18n="statLabsLabel">Labs</span></div>
+            <div><strong>2</strong><span><span data-lang="en">Labs</span><span data-lang="zh">实验室</span></span></div>
             <div class="hero-stats-sep"></div>
-            <div><strong data-i18n="statLocationValue">Shanghai</strong><span data-i18n="statLocationLabel">Based in China</span></div>
+            <div><strong><span data-lang="en">Shanghai</span><span data-lang="zh">上海</span></strong><span><span data-lang="en">Based in China</span><span data-lang="zh">常驻中国</span></span></div>
           </div>
         </div>
         <div class="hero-visual">
@@ -90,7 +111,7 @@ title: Gaojing Zhang
           <div class="avatar-frame">
             <img src="{{ '/images/profile-avatar.png' | relative_url }}" alt="Gaojing Zhang avatar">
           </div>
-          <div class="collab-chip"><span></span><span data-i18n="openCollab">Open to collab</span></div>
+          <div class="collab-chip"><span></span><span data-lang="en">Open to collab</span><span data-lang="zh">欢迎交流合作</span></div>
         </div>
       </div>
     </section>
@@ -99,12 +120,12 @@ title: Gaojing Zhang
     <section id="about" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">01</span>
-        <h2 data-i18n="aboutTitle">About</h2>
+        <h2><span data-lang="en">About</span><span data-lang="zh">关于我</span></h2>
         <span class="heading-rule"></span>
       </div>
       <div class="glass-panel about-panel" data-reveal>
-        <p data-i18n="aboutP1">I am a PhD student at the University of Sussex (funded by CSC), where I received my MSc in Robotics in June 2025. I conduct research on embodied intelligence in the Autonomous Intelligence &amp; Robotic Embodiment Lab, supervised by Prof. Bao Kha Nguyen.</p>
-        <p data-i18n="aboutP2">I am also a visiting doctoral student at the School of Artificial Intelligence, Shanghai Jiao Tong University (HIROL Lab), supervised by Prof. Lian Wenzhao. As a newcomer to embodied intelligence, I'm eager to learn from senior researchers and peers — if you're interested in my work, please feel free to reach out.</p>
+        <div data-lang="en">{{ about_en | markdownify }}</div>
+        <div data-lang="zh">{{ about_zh | markdownify }}</div>
       </div>
     </section>
 
@@ -112,16 +133,16 @@ title: Gaojing Zhang
     <section id="research" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">02</span>
-        <h2 data-i18n="researchTitle">Research Orientation</h2>
+        <h2><span data-lang="en">Research Orientation</span><span data-lang="zh">研究方向</span></h2>
         <span class="heading-rule"></span>
       </div>
-      <p class="section-kicker" data-reveal data-i18n="researchSubtitle">Embodied AI & Multimodal Foundation Models</p>
+      <p class="section-kicker" data-reveal>
+        <span data-lang="en">Embodied AI & Multimodal Foundation Models</span>
+        <span data-lang="zh">具身智能 & 多模态基础模型</span>
+      </p>
       <div class="research-grid">
-        <div class="glass-card" data-reveal data-delay="0"><div class="mono-index">// 01</div><p data-i18n="research1">Leveraging Large Vision-Language Models (LVLMs) for embodied reasoning and decision-making.</p></div>
-        <div class="glass-card" data-reveal data-delay="70"><div class="mono-index">// 02</div><p data-i18n="research2">Instruction following and long-horizon planning in complex environments (VLN).</p></div>
-        <div class="glass-card" data-reveal data-delay="140"><div class="mono-index">// 03</div><p data-i18n="research3">Parameter-efficient fine-tuning (PEFT) and alignment of foundation models for robotics tasks.</p></div>
-        <div class="glass-card" data-reveal data-delay="0"><div class="mono-index">// 04</div><p data-i18n="research4">Bridging the gap between high-level linguistic instructions and low-level control policies.</p></div>
-        <div class="glass-card" data-reveal data-delay="70"><div class="mono-index">// 05</div><p data-i18n="research5">Cross-modal representation learning for embodied agents in 3D environments.</p></div>
+        <div data-lang="en">{{ research_en | markdownify }}</div>
+        <div data-lang="zh">{{ research_zh | markdownify }}</div>
       </div>
     </section>
 
@@ -129,39 +150,17 @@ title: Gaojing Zhang
     <section id="education" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">03</span>
-        <h2 data-i18n="eduExpTitle">Education & Experience</h2>
+        <h2><span data-lang="en">Education & Experience</span><span data-lang="zh">教育经历 & 科研经历</span></h2>
         <span class="heading-rule"></span>
       </div>
       <div class="timeline-columns">
         <div class="timeline-column">
-          <div class="glass-card timeline-card accent-left" data-reveal data-delay="0">
-            <div class="mono-index" data-i18n="edu1Date">2025.10 — Present</div>
-            <div class="timeline-title" data-i18n="edu1Title">PhD Student</div>
-            <div class="timeline-sub" data-i18n="edu1Sub">University of Sussex, UK</div>
-          </div>
-          <div class="glass-card timeline-card" data-reveal data-delay="70">
-            <div class="mono-index mono-index-alt" data-i18n="edu2Date">2023.09 — 2025.06</div>
-            <div class="timeline-title" data-i18n="edu2Title">MSc in Robotics</div>
-            <div class="timeline-sub" data-i18n="edu2Sub">University of Sussex, UK</div>
-          </div>
-          <div class="glass-card timeline-card" data-reveal data-delay="140">
-            <div class="mono-index mono-index-alt" data-i18n="edu3Date">2017.09 — 2021.06</div>
-            <div class="timeline-title" data-i18n="edu3Title">BEng, Computer Science &amp; Technology</div>
-            <div class="timeline-sub" data-i18n="edu3Sub">Henan Normal University, China</div>
-          </div>
+          <div data-lang="en">{{ education_en | markdownify }}</div>
+          <div data-lang="zh">{{ education_zh | markdownify }}</div>
         </div>
         <div class="timeline-column">
-          <div class="glass-card timeline-card accent-left-2" data-reveal data-delay="0">
-            <div class="mono-index mono-index-alt" data-i18n="exp1Date">2025.09 — Now</div>
-            <div class="timeline-title" data-i18n="exp1Title">Visiting Student</div>
-            <div class="timeline-sub" data-i18n="exp1Sub">SJTU · School of AI · HIROL Lab</div>
-          </div>
-          <div class="glass-card timeline-card" data-reveal data-delay="70">
-            <div class="mono-index mono-index-alt" data-i18n="exp2Date">2025.03 — 2025.09</div>
-            <div class="timeline-title" data-i18n="exp2Title">Research Assistant</div>
-            <div class="timeline-sub" data-i18n="exp2Sub">SJTU · School of AI · HIROL Lab</div>
-            <p class="timeline-desc" data-i18n="exp2Desc">Embodied intelligence platform: hand-eye calibration, underlying interface programming for different robots, motion-capture system, object marking &amp; data acquisition.</p>
-          </div>
+          <div data-lang="en">{{ experience_en | markdownify }}</div>
+          <div data-lang="zh">{{ experience_zh | markdownify }}</div>
         </div>
       </div>
     </section>
@@ -170,18 +169,12 @@ title: Gaojing Zhang
     <section id="news" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">04</span>
-        <h2 data-i18n="newsTitle">News</h2>
+        <h2><span data-lang="en">News</span><span data-lang="zh">最新动态</span></h2>
         <span class="heading-rule"></span>
       </div>
       <div class="news-list">
-        <div class="glass-card news-row" data-reveal data-delay="0">
-          <span class="news-date-badge" data-i18n="news1Date">2026.02</span>
-          <span class="news-text" data-i18n="news1Text">One paper accepted by ICRA 2026 🎉</span>
-        </div>
-        <div class="glass-card news-row" data-reveal data-delay="80">
-          <span class="news-date-badge news-date-badge-alt" data-i18n="news2Date">2025.06</span>
-          <span class="news-text" data-i18n="news2Text">Received funding from the China Scholarship Council (CSC) 🎉</span>
-        </div>
+        <div data-lang="en">{{ news_en | markdownify }}</div>
+        <div data-lang="zh">{{ news_zh | markdownify }}</div>
       </div>
     </section>
 
@@ -189,56 +182,55 @@ title: Gaojing Zhang
     <section id="publications" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">05</span>
-        <h2 data-i18n="pubsTitle">Publications</h2>
+        <h2><span data-lang="en">Publications</span><span data-lang="zh">论文发表</span></h2>
         <span class="heading-rule"></span>
       </div>
-      <div class="pub-list" data-list="publications"></div>
+      <div class="pub-list">
+        <div data-lang="en">{{ pub_en | markdownify }}</div>
+        <div data-lang="zh">{{ pub_zh | markdownify }}</div>
+      </div>
     </section>
 
     <!-- DEMOS -->
     <section id="demos" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">06</span>
-        <h2 data-i18n="demosTitle">Demos</h2>
-        <a class="section-heading-link" href="https://suiuko.github.io/DemoShow/" target="_blank" rel="noopener" data-i18n="demoShowLink">DemoShow →</a>
+        <h2><span data-lang="en">Demos</span><span data-lang="zh">Demo 演示</span></h2>
+        <a class="section-heading-link" href="https://suiuko.github.io/DemoShow/" target="_blank" rel="noopener">
+          <span data-lang="en">DemoShow →</span><span data-lang="zh">查看 DemoShow →</span>
+        </a>
         <span class="heading-rule"></span>
       </div>
-      <div class="demo-grid" data-list="demos"></div>
+      <div class="demo-grid">
+        <div data-lang="en">{{ demo_en | markdownify }}</div>
+        <div data-lang="zh">{{ demo_zh | markdownify }}</div>
+      </div>
     </section>
 
     <!-- HONORS -->
     <section id="honors" class="section">
       <div class="section-heading" data-reveal>
         <span class="section-index">07</span>
-        <h2 data-i18n="honorsTitle">Honors & Awards</h2>
+        <h2><span data-lang="en">Honors & Awards</span><span data-lang="zh">荣誉与奖项</span></h2>
         <span class="heading-rule"></span>
       </div>
       <div class="honors-grid">
-        <div class="glass-card honor-card" data-reveal data-delay="0">
-          <div class="mono-index" data-i18n="honor1Date">2025</div>
-          <div class="honor-text" data-i18n="honor1Text">CSC Government Scholarship for Doctoral Studies Abroad</div>
-        </div>
-        <div class="glass-card honor-card" data-reveal data-delay="70">
-          <div class="mono-index" data-i18n="honor2Date">2025 · Top 1%</div>
-          <div class="honor-text" data-i18n="honor2Text">Sussex University Dean's Scholarship</div>
-        </div>
-        <div class="glass-card honor-card" data-reveal data-delay="140">
-          <div class="mono-index" data-i18n="honor3Date">2025 · Top 5%</div>
-          <div class="honor-text" data-i18n="honor3Text">Sussex University International Doctoral Scholarship</div>
-        </div>
-      </div>
-      <div class="reviewer-row" data-reveal>
-        <span class="reviewer-label" data-i18n="reviewerFor">Reviewer for</span>
-        <span class="reviewer-tag">ICRA 2026</span>
-        <span class="reviewer-tag">ICME 2026</span>
+        <div data-lang="en">{{ honors_en | markdownify }}</div>
+        <div data-lang="zh">{{ honors_zh | markdownify }}</div>
       </div>
     </section>
 
     <!-- CONTACT / FOOTER -->
     <section class="section contact-section">
       <div class="contact-panel" data-reveal>
-        <h2 data-i18n="footerTitle">Let's build embodied intelligence together.</h2>
-        <p data-i18n="footerDesc">Interested in my work, or thinking about collaboration? I'd love to hear from you.</p>
+        <h2>
+          <span data-lang="en">Let's build embodied intelligence together.</span>
+          <span data-lang="zh">一起探索具身智能的未来。</span>
+        </h2>
+        <p>
+          <span data-lang="en">Interested in my work, or thinking about collaboration? I'd love to hear from you.</span>
+          <span data-lang="zh">如果你对我的研究感兴趣,或想探讨合作机会,欢迎随时与我联系。</span>
+        </p>
         <div class="contact-actions">
           <a class="button button-primary" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
           <a class="button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
@@ -246,8 +238,8 @@ title: Gaojing Zhang
         </div>
       </div>
       <div class="footer-meta">
-        <span data-i18n="footerBottomLeft">Gaojing Zhang · Shanghai, China</span>
-        <span data-i18n="footerBottomRight">Embodied Intelligence · Robotics · © {{ site.time | date: '%Y' }}</span>
+        <span><span data-lang="en">Gaojing Zhang · Shanghai, China</span><span data-lang="zh">Gaojing Zhang · 中国上海</span></span>
+        <span><span data-lang="en">Embodied Intelligence · Robotics · © {{ site.time | date: '%Y' }}</span><span data-lang="zh">具身智能 · 机器人 · © {{ site.time | date: '%Y' }}</span></span>
       </div>
     </section>
 
