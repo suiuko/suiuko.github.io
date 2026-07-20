@@ -809,14 +809,16 @@ main {
   font-size: 12.5px;
 }
 
-.pub-links {
+.pub-links,
+.demo-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 20px;
   margin-top: 14px;
 }
 
-.pub-links .mono-link {
+.pub-links .mono-link,
+.demo-links .mono-link {
   margin-top: 0;
 }
 

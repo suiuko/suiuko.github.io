@@ -30,3 +30,13 @@
 {: .mono-link}
 </div>
 </div>
+
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 04</div><img src="images/bioagent.jpg" alt="BioAgent 机器人执行生物实验"></div>
+<div class="demo-body" markdown="1">
+BioAgent 通过任务规划、技能匹配、执行、监控与恢复，编排长时程生物实验流程。
+{: .demo-caption}
+
+<div class="demo-links"><a class="mono-link" href="https://suiuko.github.io/bioagentweb/">项目主页 →</a><a class="mono-link" href="https://youtu.be/niHUnCPMZB4">▶ 观看视频</a></div>
+</div>
+</div>

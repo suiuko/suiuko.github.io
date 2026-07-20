@@ -13,7 +13,7 @@
 </div>
 
 <div class="glass-card pub-card" data-reveal>
-<div class="pub-image"><div class="pub-badge">项目</div><img src="images/bioagent.jpg" alt="BioAgent 机器人执行生物实验"></div>
+<div class="pub-image"><div class="pub-badge">arXiv 2026</div><img src="images/bioagent.jpg" alt="BioAgent 机器人执行生物实验"></div>
 <div class="pub-body" markdown="1">
 [BioAgent：面向生物实验的技能编排机器人智能体](https://suiuko.github.io/bioagentweb/)
 {: .pub-title}

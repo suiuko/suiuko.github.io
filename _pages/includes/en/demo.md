@@ -30,3 +30,13 @@ Using a VLM to make the decision: should we suck or grab?
 {: .mono-link}
 </div>
 </div>
+
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 04</div><img src="images/bioagent.jpg" alt="BioAgent robot performing a biological experiment"></div>
+<div class="demo-body" markdown="1">
+BioAgent orchestrates long-horizon biological experiments through task planning, skill matching, execution, monitoring, and recovery.
+{: .demo-caption}
+
+<div class="demo-links"><a class="mono-link" href="https://suiuko.github.io/bioagentweb/">Project page →</a><a class="mono-link" href="https://youtu.be/niHUnCPMZB4">▶ Watch video</a></div>
+</div>
+</div>

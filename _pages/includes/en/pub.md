@@ -13,7 +13,7 @@ A scalable framework that learns robust humanoid loco-manipulation from egocentr
 </div>
 
 <div class="glass-card pub-card" data-reveal>
-<div class="pub-image"><div class="pub-badge">PROJECT</div><img src="images/bioagent.jpg" alt="BioAgent robot performing a biological experiment"></div>
+<div class="pub-image"><div class="pub-badge">arXiv 2026</div><img src="images/bioagent.jpg" alt="BioAgent robot performing a biological experiment"></div>
 <div class="pub-body" markdown="1">
 [BioAgent: A Skill-Orchestrated Robot Agent for Biological Experiments](https://suiuko.github.io/bioagentweb/)
 {: .pub-title}
