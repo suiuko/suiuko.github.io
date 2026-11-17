@@ -1,5 +1,5 @@
-<div class="glass-card demo-card" >
-<div class="demo-image"><div class="demo-badge">DEMO 01</div><img loading="lazy" src="images/demo1.png" alt="Demo 1"></div>
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 01</div><img src="images/demo1.png" alt="Demo 1"></div>
 <div class="demo-body" markdown="1">
 Using a Franka arm to complete the tangram puzzle.
 {: .demo-caption}
@@ -9,8 +9,8 @@ Using a Franka arm to complete the tangram puzzle.
 </div>
 </div>
 
-<div class="glass-card demo-card" >
-<div class="demo-image"><div class="demo-badge">DEMO 02</div><img loading="lazy" src="images/demo2.png" alt="Demo 2"></div>
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 02</div><img src="images/demo2.png" alt="Demo 2"></div>
 <div class="demo-body" markdown="1">
 A dual-arm robot (Monte) completing pick-and-place via GraspNet.
 {: .demo-caption}
@@ -20,8 +20,8 @@ A dual-arm robot (Monte) completing pick-and-place via GraspNet.
 </div>
 </div>
 
-<div class="glass-card demo-card" >
-<div class="demo-image"><div class="demo-badge">DEMO 03</div><img loading="lazy" src="images/demo3.png" alt="Demo 3"></div>
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 03</div><img src="images/demo3.png" alt="Demo 3"></div>
 <div class="demo-body" markdown="1">
 Using a VLM to make the decision: should we suck or grab?
 {: .demo-caption}
@@ -31,8 +31,8 @@ Using a VLM to make the decision: should we suck or grab?
 </div>
 </div>
 
-<div class="glass-card demo-card" >
-<div class="demo-image"><div class="demo-badge">DEMO 04</div><img loading="lazy" src="images/bioagent-monte02.jpg" alt="BioAgent robot performing a biological experiment"></div>
+<div class="glass-card demo-card" data-reveal>
+<div class="demo-image"><div class="demo-badge">DEMO 04</div><img src="images/bioagent-monte02.jpg" alt="BioAgent robot performing a biological experiment"></div>
 <div class="demo-body" markdown="1">
 BioAgent orchestrates long-horizon biological experiments through task planning, skill matching, execution, monitoring, and recovery.
 {: .demo-caption}
