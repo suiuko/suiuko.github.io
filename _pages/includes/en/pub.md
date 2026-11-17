@@ -81,10 +81,13 @@ A coarse-to-precise framework enabling precise scooping operations across divers
 <div class="glass-card pub-card" data-reveal>
 <div class="pub-image"><div class="pub-badge">SMC 2026</div><img src="images/triplet2track.png" alt="Triplet2Track"></div>
 <div class="pub-body" markdown="1">
-**Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation**
+[Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation](https://arxiv.org/abs/2608.22800)
 {: .pub-title}
 
 The Triplet-to-Track System (TTS): a closed-loop long-horizon imitation-learning system that uses human videos to reduce reliance on robot-collected data.
 {: .pub-desc}
+
+[Read paper →](https://arxiv.org/abs/2608.22800)
+{: .mono-link}
 </div>
 </div>

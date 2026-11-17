@@ -81,10 +81,13 @@ BioAgent 为长时程实验室任务复用已验证的技能，在缺少能力�
 <div class="glass-card pub-card" data-reveal>
 <div class="pub-image"><div class="pub-badge">SMC 2026</div><img src="images/triplet2track.png" alt="Triplet2Track"></div>
 <div class="pub-body" markdown="1">
-**Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation**
+[Triplet2Track: A Hierarchical System with Object-Centric Representations for Reliable Long-Horizon Manipulation](https://arxiv.org/abs/2608.22800)
 {: .pub-title}
 
 提出 Triplet-to-Track 系统(TTS)——一种闭环长时程模仿学习系统,利用人类视频演示降低对机器人采集数据的依赖。
 {: .pub-desc}
+
+[阅读论文 →](https://arxiv.org/abs/2608.22800)
+{: .mono-link}
 </div>
 </div>
